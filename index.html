@@ -1,0 +1,18 @@
+{% extends "layout.html" %}
+
+{% block content %}
+    <h1>Welcome to AutoLuxe Mobile Car Wash</h1>
+    <p>Your premium mobile car wash and detailing service.</p>
+    <p>We serve the following areas: Kitchener, Waterloo, Cambridge, and Guelph.</p>
+    <div>
+        <a href="{{ url_for('booking') }}" class="btn">Book Now</a>
+        <a href="{{ url_for('services') }}" class="btn">View Services</a>
+    </div>
+    <div style="margin-top: 20px;">
+        <p>
+            <a href="https://calendar.google.com/" target="_blank" rel="noopener noreferrer">Check our general availability on Google Calendar</a>
+            <br>
+            <em>(Opens Google Calendar. You can update this with your specific public calendar link.)</em>
+        </p>
+    </div>
+{% endblock %}
