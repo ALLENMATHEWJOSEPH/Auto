@@ -1,0 +1,139 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+    padding: 0 20px;
+}
+
+header {
+    background: #333;
+    color: #fff;
+    padding-top: 30px;
+    min-height: 70px;
+    border-bottom: #0779e4 3px solid;
+}
+
+header a {
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 16px;
+}
+
+header ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    float: right;
+}
+
+header li {
+    display: inline;
+    padding: 0 20px 0 20px;
+}
+
+header #branding {
+    float: left;
+}
+
+header #branding h1 {
+    margin: 0;
+}
+
+/* Basic styles for booking form */
+.booking-form label {
+    display: block;
+    margin: 10px 0 5px;
+}
+
+.booking-form input[type="text"],
+.booking-form input[type="tel"],
+.booking-form input[type="email"],
+.booking-form input[type="date"],
+.booking-form input[type="time"],
+.booking-form select,
+.booking-form textarea { /* Added textarea for completeness */
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    box-sizing: border-box; /* Added for better width management */
+}
+
+.booking-form input[type="submit"],
+.booking-form button { /* Style buttons as well */
+    background-color: #0779e4;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.booking-form input[type="submit"]:hover,
+.booking-form button:hover {
+    background-color: #0056b3;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    margin-top: 20px;
+    color: #fff;
+    background-color: #333;
+}
+
+/* General button styling (can be used outside forms) */
+.btn {
+    display: inline-block;
+    background: #0779e4;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+.btn:hover {
+    background: #0056b3;
+}
+
+/* Navigation link styling */
+nav ul {
+    padding: 0;
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff; /* Assuming nav is in header, or change as needed */
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Utility classes */
+.text-center {
+    text-align: center;
+}
+.mt-1 { margin-top: 1rem; }
+.mt-2 { margin-top: 2rem; }
+.mb-1 { margin-bottom: 1rem; }
+.mb-2 { margin-bottom: 2rem; }
